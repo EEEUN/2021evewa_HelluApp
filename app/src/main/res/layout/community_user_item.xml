@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:orientation="horizontal"
+    android:layout_height="60dp">
+
+<!--    친구목록에 들어갈 유저_아이템(프사,이름,상태메시지 등)을 찍어주는 레이아웃-->
+
+    <!--이름-->
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:text="이름"
+        android:textSize="16sp"
+        android:textColor="#000"/>
+
+    <!--찌르기 버튼-->
+    <View
+        android:layout_width="288dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id = "@+id/alertbutton"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="30dp"
+        android:text="찌르기" />
+</LinearLayout>

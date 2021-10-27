@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:nestedScrollingEnabled="false">
+
+    <!--    리사이클러뷰를 찍어주는 레이아웃-->
+
+    <!--동작은 안하고 화면맞춤용^^...네비게이션-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/walking_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconTint="@color/dark_blue"
+        app:itemTextColor="@color/dark_blue"
+        android:theme="@style/Widget.fontChange_nanum"
+        app:menu="@menu/menu_walking_navi" />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="걷기 랭킹"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textColor="@color/blue"-->
+<!--        android:textStyle="bold"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/ranking_item" />
+
+</LinearLayout>

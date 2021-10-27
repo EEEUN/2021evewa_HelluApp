@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Widget.fontChange_nanum"
+    tools:context=".plan_choose">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-72dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pch_text_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="36dp"
+                android:text="환영합니다!"
+                android:textColor="@color/dark_blue"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pch_text_explain1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="AI 플랜 선택은 인공지능이 당신의 상태를 분석하여\n맞춤 플랜을 추천하는 서비스입니다."
+                android:textColor="@color/dark_blue"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:layout_marginLeft="15dp"
+                android:text="플랜을 정하면 전문 트레이너를 매칭해드립니다!"
+                android:textColor="@color/dark_blue"
+                android:textSize="17dp" />
+
+            <!--성별, 나이 입력하기-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sexNage_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="당신의 성별과 나이를 알려주세요." />
+
+                    <!--성별을 위한 리니어-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/man"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="남" />
+
+                            <RadioButton
+                                android:id="@+id/woman"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="여" />
+
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <!--나이를 위한 리니어-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editAge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="5"
+                            android:hint="나이"
+                            android:inputType="number"
+                            android:textColor="#A3A3A3"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="세"
+                            android:textSize="17dp"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--신장, 체중 입력하기-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/weight_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="당신의 신장과 체중을 알려주세요." />
+
+                    <!--신장을 위한 리니어-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editHeight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="5"
+                            android:hint="신장"
+                            android:inputType="number"
+                            android:textColor="#A3A3A3"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="cm"
+                            android:textSize="17dp" />
+                    </LinearLayout>
+
+                    <!--체중을 위한 리니어-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editWeight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="5"
+                            android:hint="체중"
+                            android:inputType="number"
+                            android:textColor="#A3A3A3"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="kg"
+                            android:textSize="17dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--목표 설정-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textGoal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="당신의 목표를 설정해주세요." />
+
+                    <!--                    목표 감량 체중 입력-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editGoal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="7"
+                            android:hint="목표 감량 체중"
+                            android:inputType="number"
+                            android:textColor="#A3A3A3"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="kg 감량"
+                            android:textSize="17dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--1번 문제-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="10dp">
+
+                <TextView
+                    android:id="@+id/AI_question_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. 운동 주 횟수(일주일에 몇 번 운동할 계획이신가요?)" />
+
+                <!--RadioGroup은 RadioButton들을 묶어서 중복선택이 되지 않도록 도와줍니다.-->
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RadioButton
+                        android:id="@+id/q1_radio_Button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1~2일" />
+
+                    <RadioButton
+                        android:id="@+id/q1_radio_Button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2~3일" />
+
+                    <RadioButton
+                        android:id="@+id/q1_radio_Button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3~4일" />
+
+                    <RadioButton
+                        android:id="@+id/q1_radio_Button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4~5일" />
+
+                    <RadioButton
+                        android:id="@+id/q1_radio_Button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5~6일" />
+
+                    <RadioButton
+                        android:id="@+id/q1_radio_Button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="6~7일" />
+                </RadioGroup>
+            </androidx.cardview.widget.CardView>
+
+            <!--2번 문제-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:id="@+id/AI_question_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="2. 하루에 몇 분 운동할 계획이신가요?" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <RadioButton
+                        android:id="@+id/q2_radio_Button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="30분 미만" />
+
+                    <RadioButton
+                        android:id="@+id/q2_radio_Button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="30분~1시간" />
+
+                    <RadioButton
+                        android:id="@+id/q2_radio_Button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1~2시간" />
+
+                    <RadioButton
+                        android:id="@+id/q2_radio_Button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2시간 이상" />
+                </RadioGroup>
+            </androidx.cardview.widget.CardView>
+
+            <!--3번 문제-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:id="@+id/AI_question_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="3. 평소 활동량을 알려주세요." />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <RadioButton
+                        android:id="@+id/q4_radio_Button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="운동을 하지 않는다." />
+
+                    <RadioButton
+                        android:id="@+id/q4_radio_Button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="30분" />
+
+                    <RadioButton
+                        android:id="@+id/q4_radio_Button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1시간" />
+
+                    <RadioButton
+                        android:id="@+id/q4_radio_Button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2시간" />
+
+                    <RadioButton
+                        android:id="@+id/q4_radio_Button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3시간 이상" />
+                </RadioGroup>
+            </androidx.cardview.widget.CardView>
+
+            <!--4번 문제-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/AI_question_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="4. 언제 식사할 예정이신가요?" />
+
+
+                    <CheckBox
+                        android:id="@+id/q5_radio_Button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="아침" />
+
+                    <CheckBox
+                        android:id="@+id/q5_radio_Button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="늦은 아침" />
+
+                    <CheckBox
+                        android:id="@+id/q5_radio_Button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="점심" />
+
+                    <CheckBox
+                        android:id="@+id/q5_radio_Button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="늦은 점심" />
+
+                    <CheckBox
+                        android:id="@+id/q5_radio_Button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="저녁" />
+
+                    <CheckBox
+                        android:id="@+id/q5_radio_Button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="늦은 저녁" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--5번 문제-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:id="@+id/AI_question_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="5.계기가 무엇인가요?" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <RadioButton
+                        android:id="@+id/q6_radio_Button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="건강 목적" />
+
+                    <RadioButton
+                        android:id="@+id/q6_radio_Button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="다이어트 목적" />
+
+                    <RadioButton
+                        android:id="@+id/q6_radio_Button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="균형 목적" />
+
+                    <RadioButton
+                        android:id="@+id/q6_radio_Button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="스트레스 해소 목적" />
+
+                    <RadioButton
+                        android:id="@+id/q6_radio_Button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="근육 및 힘 증가 목적" />
+                </RadioGroup>
+            </androidx.cardview.widget.CardView>
+
+            <!--6번 추가 문제-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Kcal_question"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="6. 자주 드시는 음식은 무엇인가요?" />
+
+
+                    <CheckBox
+                        android:id="@+id/q7_radio_Button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="밥 🍚" />
+
+                    <CheckBox
+                        android:id="@+id/q7_radio_Button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="빵 🍞" />
+
+                    <CheckBox
+                        android:id="@+id/q7_radio_Button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="라면 🥡" />
+
+                    <CheckBox
+                        android:id="@+id/q7_radio_Button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="패스트푸드 🍔" />
+
+                    <CheckBox
+                        android:id="@+id/q7_radio_Button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="각종 배달음식 🍜" />
+
+                    <CheckBox
+                        android:id="@+id/q7_radio_Button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="군것질, 간식 🍫" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/pch_result_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="10dp"
+                android:text="AI가 선별해주는 플랜 결과 보기"
+                app:backgroundTint="@color/blue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

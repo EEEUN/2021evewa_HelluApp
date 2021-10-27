@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Widget.fontChange_nanum"
+    tools:context=".DailyStamp.daily_stamp_write">
+
+    <!--매일인증 제목 입력창-->
+    <EditText
+        android:id="@+id/daily_write_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="top"
+        android:hint="제목을 입력하세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--사진을 매일인증 글에 가져올 때 쓸 버튼-->
+    <Button
+        android:id="@+id/daily_write_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사진 가져오기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <FrameLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/light_gray"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/daily_write_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/daily_write_title">
+
+
+        <ImageView
+            android:id="@+id/image_select_preview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+
+    <!--매일인증글 내용 입력창-->
+    <EditText
+        android:id="@+id/daily_write_kcal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="먹은 칼로리를 입력하세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear" />
+
+    <EditText
+        android:id="@+id/daily_write_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="top"
+        android:hint="내용을 입력하세요"
+        app:layout_constraintBottom_toTopOf="@+id/daily_write_save_button"
+        app:layout_constraintTop_toBottomOf="@+id/daily_write_kcal" />
+
+    <!--매일인증글 저장하기 버튼-->
+    <Button
+        android:id="@+id/daily_write_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="저장하기"
+        app:backgroundTint="@color/key_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

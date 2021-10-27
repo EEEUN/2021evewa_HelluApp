@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#00FFFFFF"
+    android:orientation="vertical"
+    android:theme="@style/Widget.fontChange_nanum"
+    tools:context=".MainFragment.fragment_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:text="헬루"
+            android:layout_marginVertical="5dp"
+            android:textColor="@color/dark_blue"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="25sp"
+            android:layout_marginVertical="5dp"
+            android:textStyle="normal"
+            android:textColor="@color/blue"
+            android:text="Healthy Routine!" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:theme="@style/Widget.fontChange_nanum"
+        tools:context=".MainFragment.fragment_home">
+
+        <!--    매일인증과 플랜추천 아이콘을 위한 리니어-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:theme="@style/Widget.fontChange_nanum"
+            tools:context=".MainFragment.fragment_home">
+
+            <Button
+                android:id="@+id/daily_stamp_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="50dp"
+                android:background="@drawable/shape_button"
+                android:gravity="center"
+                app:backgroundTint="@color/light_gray"
+                app:icon="@drawable/camera"
+                app:iconGravity="textTop"
+                app:iconSize="60dp"
+                app:iconTint="@color/blue" />
+
+            <Button
+                android:id="@+id/plan_choose_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="50dp"
+                android:background="@drawable/shape_button"
+                android:gravity="center"
+                app:backgroundTint="@color/light_gray"
+                app:icon="@drawable/pchoose"
+                app:iconGravity="textTop"
+                app:iconSize="60dp"
+                app:iconTint="@color/blue" />
+        </LinearLayout>
+
+        <!--    매일인증과 플랜추천 이름표를 위한 리니어-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:theme="@style/Widget.fontChange_nanum"
+            tools:context=".MainFragment.fragment_home">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:text="매일 인증"
+                android:textColor="@color/dark_blue" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:text="AI 플랜 선택"
+                android:textColor="@color/dark_blue" />
+
+        </LinearLayout>
+
+        <!--    공백을 위한 리니어-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:theme="@style/Widget.fontChange_nanum"
+            tools:context=".MainFragment.fragment_home">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:textColor="@color/dark_blue" />
+
+        </LinearLayout>
+
+
+        <!--        소통과 인바디 아이콘을 위한 리니어-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:theme="@style/Widget.fontChange_nanum"
+            tools:context=".MainFragment.fragment_home">
+
+            <Button
+                android:id="@+id/community_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="50dp"
+                android:background="@drawable/shape_button"
+                android:gravity="center"
+                app:backgroundTint="@color/light_gray"
+                app:icon="@drawable/community"
+                app:iconGravity="textTop"
+                app:iconSize="60dp"
+                app:iconTint="@color/blue" />
+
+            <Button
+                android:id="@+id/plan_review_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="50dp"
+                android:background="@drawable/shape_button"
+                android:gravity="center"
+                app:backgroundTint="@color/light_gray"
+                app:icon="@drawable/plan_review"
+                app:iconGravity="textTop"
+                app:iconSize="60dp"
+                app:iconTint="@color/blue" />
+
+        </LinearLayout>
+
+        <!--        소통과 인바디 이름표를 위한 리니어-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:theme="@style/Widget.fontChange_nanum"
+            tools:context=".MainFragment.fragment_home">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:text="소통"
+                android:textColor="@color/dark_blue" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:text="AI 플랜 다시보기"
+                android:textColor="@color/dark_blue" />
+
+        </LinearLayout>
+
+        <!--    공백을 위한 리니어-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:theme="@style/Widget.fontChange_nanum"
+            tools:context=".MainFragment.fragment_home">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:textColor="@color/dark_blue" />
+
+        </LinearLayout>
+
+        <!--    걷기와 역대기록 아이콘을 위한 리니어-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:theme="@style/Widget.fontChange_nanum"
+            tools:context=".MainFragment.fragment_home">
+
+            <Button
+                android:id="@+id/walking_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="50dp"
+                android:background="@drawable/shape_button"
+                android:gravity="center"
+                app:backgroundTint="@color/light_gray"
+                app:icon="@drawable/walking"
+                app:iconGravity="textTop"
+                app:iconSize="60dp"
+                app:iconTint="@color/blue" />
+
+            <Button
+                android:id="@+id/metaverse_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="50dp"
+                android:background="@drawable/shape_button"
+                android:gravity="center"
+                app:backgroundTint="@color/light_gray"
+                app:icon="@drawable/metaverse"
+                app:iconGravity="textTop"
+                app:iconSize="60dp"
+                app:iconTint="@color/blue" />
+
+        </LinearLayout>
+
+        <!--        걷기와 역대기록 이름표를 위한 리니어-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:theme="@style/Widget.fontChange_nanum"
+            tools:context=".MainFragment.fragment_home">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:text="걷기"
+                android:textColor="@color/dark_blue" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:text="메타버스"
+                android:textColor="@color/dark_blue" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--아마도 기능은 안하고 화면비율맞춤용 하단 네비게이션-->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Widget.fontChange_nanum"
+            app:itemIconTint="@color/dark_blue"
+            app:itemTextColor="@color/dark_blue"
+            app:menu="@menu/menu_home_bottom_navi" />
+
+    </LinearLayout>
+
+</LinearLayout>

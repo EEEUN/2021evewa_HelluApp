@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/daily_camera"
+        android:enabled="true"
+        android:icon="@drawable/camera"
+        android:title="카메라"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/daily_write"
+        android:enabled="true"
+        android:icon="@drawable/write"
+        android:title="글쓰기"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/daily_gallery"
+        android:enabled="true"
+        android:icon="@drawable/gallery"
+        android:title="갤러리"
+        app:showAsAction="ifRoom" />
+</menu>

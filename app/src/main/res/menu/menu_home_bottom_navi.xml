@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:scaleType="center"
+        android:title="홈"
+        android:fontFamily="@font/nanumbarungothic"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/feed"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="피드"
+        android:fontFamily="@font/nanumbarungothic"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mypage"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="마이페이지"
+        android:fontFamily="@font/nanumbarungothic"
+        app:showAsAction="ifRoom" />
+    <!--<item
+        android:id="@+id/setting"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="설정"
+        android:fontFamily="@font/nanumbarungothic"
+        app:showAsAction="ifRoom" />-->
+</menu>

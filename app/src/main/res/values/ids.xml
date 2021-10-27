@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonPostComment" type="id" />
+    <item name="fieldCommentText" type="id" />
+    <item name="postTextLayout" type="id" />
+    <item name="recyclerPostComments" type="id" />
+    <item name="tvGpsEnable" type="id" />
+    <item name="tvGpsLatitude" type="id" />
+    <item name="tvGpsLongitude" type="id" />
+    <item name="tvEndLatitude" type="id" />
+    <item name="tvEndLongitude" type="id" />
+    <item name="tvNowLatitude" type="id" />
+    <item name="tvNowLongitude" type="id" />
+    <item name="tvTimeDif" type="id" />
+    <item name="tvDistDif" type="id" />
+    <item name="tvStepDetector" type="id" />
+    <item name="tvTitle" type="id" />
+</resources>

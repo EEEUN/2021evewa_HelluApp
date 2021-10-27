@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/cameraLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="588dp" />
+
+            <TextView
+                android:id="@+id/cameraTimeStampView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:text=""
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="110dp"
+            android:textColor="@color/blue"
+            android:textSize="15dp"
+            android:text="사진을 찍어\n인증샷을 남겨보세요!" />
+
+        <ImageButton
+            android:id="@+id/take_photo"
+            android:layout_width="102dp"
+            android:layout_height="67dp"
+            android:background="@drawable/camera_border"
+            android:iconTint="@color/blue"
+            android:outlineSpotShadowColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:scaleType="centerInside"
+            android:src="@drawable/timestamp_camera" />
+    </FrameLayout>
+
+    <!--        android:src="@android:drawable/ic_menu_camera"-->
+    </FrameLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyStamp.daily_stamp_camera"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="사진 찍기" />
+
+
+</LinearLayout>
+
+-->

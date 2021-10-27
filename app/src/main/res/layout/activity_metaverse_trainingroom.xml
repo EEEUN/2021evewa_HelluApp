@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Metaverse.metaverse_trainingroom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="메타버스 트레이닝 방"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:text="전문 트레이너 &amp; 다른 유저들과 함께 운동할 수 있는 공간입니다. \n해당 트레이너의 방 주소를 입력하시면 운동방으로 입장하실 수 있습니다. 메타버스를 통해 운동을 함께 즐겨보세요!" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#808080"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:text="오늘의 목표! 열심히 달려봅시다!"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="17dp"
+        android:text="1. 푸시업 10회\n2. 윗몸일으키기 30회\n3. pt 10회\n\n50 분 동안 반복합니다."/>
+<!--    <EditText-->
+<!--        android:id="@+id/metaverse_trainingLink_editText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="주소를 입력하는 곳" />-->
+
+    <Button
+        android:id="@+id/metaverse_trainingLink_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="게더나 줌으로 들어가는 버튼" />
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/drawable/camera_border.xml" value="0.28854166666666664" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/drawable/shape_button.xml" value="0.28854166666666664" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout-v21/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_daily_stamp.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_daily_stamp_camera.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_mypage_change.xml" value="0.2078804347826087" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_plan_choose.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_plan_choose_result.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_plan_reivew.xml" value="0.22" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_plan_review.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/community_user_item.xml" value="0.2078804347826087" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/fragment_community_chatting.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/fragment_community_user.xml" value="0.25" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/fragment_feed.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/EEEUN/AndroidStudioProjects/21_if016/app/src/main/res/layout/permission.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/drawable/back_et_mymsgbox.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/drawable/back_et_name.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/drawable/back_et_othermsgbox.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/font/font.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout-v21/chatting_right_item.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout-v21/fragment_home.xml" value="0.44513137557959814" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout-v26/fragment_home.xml" value="0.1703125" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_char.xml" value="0.176" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_main.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_user_change.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/activity_walking.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/chatting_left_item.xml" value="0.8800000000000001" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/chatting_list_item.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/chatting_right_item.xml" value="0.6" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/chatting_room_item.xml" value="0.2" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/community_user_item.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/fragment_chatting_room.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/fragment_community_chatting.xml" value="0.176" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/fragment_community_user.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/fragment_mypage.xml" value="0.136" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/fragment_walking_ranking.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/ranking_item.xml" value="0.3876177658142665" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/time_stamp_time_layout.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/layout/walking_checking.xml" value="0.4" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/menu/menu_community_navi.xml" value="0.1546875" />
+        <entry key="..\:/Users/babyh/AndroidStudioProjects/21_if016/app/src/main/res/menu/menu_walking_navi.xml" value="0.1546875" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/back_et_mymsgbox.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/back_et_name.xml" value="0.11855670103092783" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/back_et_othermsgbox.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/daily_camera_icon.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/et_name_cursor.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/feed_imagbuttron_states.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_directions_run_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_find_in_page_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_group_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_monitor_weight_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_star_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/drawable/shape_button.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout-v21/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_char.xml" value="0.22" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_community.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_daily_stamp.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_daily_stamp_allpost.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_daily_stamp_camera.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_daily_stamp_write.xml" value="0.22" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_main.xml" value="0.10868055555555556" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_metaverse.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_metaverse_trainingromm.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_metaverse_trainingroom.xml" value="0.10902777777777778" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_plan_choose.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_plan_choose_result.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/activity_plan_reivew.xml" value="0.10902777777777778" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/community_user_item.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/daily_stamp_write_image_item.xml" value="0.22" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/daily_stamp_write_item.xml" value="0.12" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/feed_item.xml" value="0.2281134401972873" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/fragment_community_user.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/fragment_daily_stamp_write_list.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/fragment_feed.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/fragment_feed_my_posts.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/fragment_feed_my_top_posts.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/fragment_feed_recent.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/include_post_author.xml" value="0.10694444444444444" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/item_post.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/metaverse_item.xml" value="0.25396825396825395" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/my_msgbox.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/other_msgbox.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/permission.xml" value="0.10625" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/post_detail.xml" value="0.1" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/post_item.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/layout/time_stamp_time_layout.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/menu/menu_home_bottom_navi.xml" value="0.10416666666666667" />
+        <entry key="..\:/Users/hongsi/21_if016/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11944444444444445" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
